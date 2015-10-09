@@ -9,9 +9,17 @@ include(ROOT_PATH . 'inc/header.php');
 
 <!-- ************* BANNER IMAGE ************ -->
 
-	<div class="banner">
-		<img class="mobile-hide" src="img/Logos/CHLOGOS1NOstarsHORIZ.png">
-		<p class="mobile-hide">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+	<div class="banner large-hide">
+	</div>
+	
+	<div class="banner-large mobile-hide">	
+		<div class="left-image">
+			<img src="img/C73C2723.jpg">
+		</div>
+		<div class="right-logo">
+			<img src="img/Logos/CHLOGOS1NOstarsHORIZ.png">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
 	</div>
 
 	<div class="main-area container">

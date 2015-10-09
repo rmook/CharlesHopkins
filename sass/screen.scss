@@ -108,15 +108,6 @@ nav {
   background: url('../img/C73C2723.jpg') no-repeat;
   background-size: cover;
   background-color: #1a0603;
-  p {
-    font-family: 'Poiret One', Arial;
-    color: $background;
-    position: absolute;
-    top: 100px;
-    right: 50px;
-    font-size: 2rem;
-    z-index: 10;
-  }
 }
 
   /*shifts following elements from under the nav*/
@@ -298,20 +289,38 @@ nav {
 
   /** desktop Banner **/
 
-  .banner {
+  .banner-large {
+    width: 100%;
     height: 300px;
-    background-color: #F0f0f0;
-    background-size: contain;
-    img {
-      float: right;
-      margin-right: 20px;
-    }
-    p {
-      width: 150px;
-      top: 160px;
-      right: 120px;
-      font-size: 1.2rem;
-      margin: 0;
+    .left-image {
+      position: absolute;
+      top: 50px;
+      left: 0px;
+      background-color: #F0f0f0; 
+      img {
+        height: 300px;   
+        width: 500px; 
+        margin: 0;
+      }
+   }
+    .right-logo{
+      position: absolute;
+      top: 50px;
+      right: 0px;
+      left: 500px;
+      height: 300px;
+      text-align: center;    
+       img {
+         vertical-align: top;
+         width: 80%;
+         margin-top: 40px;
+         
+       p {
+         font-family: 'Poiret One', Arial;
+         color: $background;
+         font-size: 2rem;
+        }
+      }
     }
   }
 
