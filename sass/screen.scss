@@ -152,6 +152,7 @@ nav {
   height: auto;
   padding-top: 20px;
   display: inline-block;
+  text-align: center;
   width: 100%;
   iframe {
     margin-top: 16px;
@@ -160,16 +161,18 @@ nav {
     margin-top: 16px;
     margin-right: 15px;
     margin-left: 25px;
+    text-align: left;
   }
   a h1{
-    background: url("../img/Logos/TROMBONEbuttonWHITE.png") no-repeat;
-    background-size: contain;
-    font-family: 'Poiret One', Arial;
-    text-align: center;
+    display: inline-block;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 33px;
+    background: url("../img/Logos/TROMBONEbuttonBROWN.png") no-repeat;
+    background-size: contain;
+    font-family: 'Poiret One', Arial;
     font-size: 2rem;
-   
+    font-weight: bold;
   }
 }
 
