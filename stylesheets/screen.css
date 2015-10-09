@@ -226,21 +226,10 @@ nav ul li a:hover, nav ul li a:active {
   margin-right: 15px;
   margin-left: 25px;
 }
-/* line 163, ../sass/screen.scss */
-.content p ul {
-  padding-left: 0px;
-}
-/* line 165, ../sass/screen.scss */
-.content p ul li {
-  margin-left: 25px;
-  margin-right: 15px;
-}
-/* line 170, ../sass/screen.scss */
-.content p a {
-  text-decoration: underline;
-}
-/* line 174, ../sass/screen.scss */
-.content h1, .content h2, .content h4 {
+/* line 164, ../sass/screen.scss */
+.content a h1 {
+  background: url("../img/Logos/TROMBONEbuttonWHITE.png") no-repeat;
+  background-size: contain;
   font-family: 'Poiret One', Arial;
   text-align: center;
   margin-top: 0px;
@@ -249,11 +238,11 @@ nav ul li a:hover, nav ul li a:active {
 }
 
 /* events area styling */
-/* line 186, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 .event p {
   text-align: center;
 }
-/* line 189, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .event button {
   display: block;
   margin-left: auto;
@@ -267,25 +256,25 @@ nav ul li a:hover, nav ul li a:active {
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
 }
-/* line 202, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .event button:hover, .event button:active {
   background-color: #1FA513;
   border: 2px solid #c08d42;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .splash-about, .watch {
   display: none;
 }
 
 /*listen area styling */
-/* line 214, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .listen iframe {
   margin-top: 15px;
 }
 
 /* about page mobile styling */
-/* line 219, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .headshot {
   float: left;
   margin-left: 25px;
@@ -298,7 +287,7 @@ nav ul li a:hover, nav ul li a:active {
 }
 
 /** Footer Styling **/
-/* line 232, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 .footer {
   display: inline-block;
   position: fixed;
@@ -308,7 +297,7 @@ nav ul li a:hover, nav ul li a:active {
   background-color: #5a4a43;
   color: #ddd;
 }
-/* line 240, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 .footer p {
   display: inline;
   float: left;
@@ -318,25 +307,25 @@ nav ul li a:hover, nav ul li a:active {
   font-size: 1rem;
   font-family: 'Poiret One', Arial;
 }
-/* line 248, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 .footer p a {
   color: #ddd;
   text-decoration: underline;
 }
-/* line 253, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .footer .social-links {
   display: inline-block;
   float: right;
   padding-left: 0px;
   margin-top: 10px;
 }
-/* line 258, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .footer .social-links .social-icon {
   display: inline;
   padding-right: 5px;
   margin-right: 15px;
 }
-/* line 262, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .footer .social-links .social-icon a img {
   max-width: 40px;
   max-height: 40px;
@@ -346,18 +335,18 @@ nav ul li a:hover, nav ul li a:active {
 /******************DESKTOP   STYLING  ********************/
 @media only screen and (min-width: 768px) {
   /*show about and watch sections*/
-  /* line 277, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   .mobile-hide {
     display: inline-block;
   }
 
-  /* line 281, ../sass/screen.scss */
+  /* line 274, ../sass/screen.scss */
   .large-hide {
     display: none;
   }
 
   /** desktop nav **/
-  /* line 287, ../sass/screen.scss */
+  /* line 280, ../sass/screen.scss */
   nav ul {
     display: inline;
     float: right;
@@ -366,12 +355,12 @@ nav ul li a:hover, nav ul li a:active {
     opacity: 1;
     margin: 0 auto;
   }
-  /* line 294, ../sass/screen.scss */
+  /* line 287, ../sass/screen.scss */
   nav ul li {
     display: inline;
     padding-bottom: 0px;
   }
-  /* line 297, ../sass/screen.scss */
+  /* line 290, ../sass/screen.scss */
   nav ul li a {
     display: inline-block;
     padding: 0;
@@ -382,23 +371,23 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /*desktop removes navicon*/
-  /* line 310, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   #navicon {
     display: none;
   }
 
   /** desktop Banner **/
-  /* line 316, ../sass/screen.scss */
+  /* line 309, ../sass/screen.scss */
   .banner {
     height: 300px;
     background-color: #F0f0f0;
   }
-  /* line 319, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   .banner img {
     float: right;
     margin-right: 20px;
   }
-  /* line 323, ../sass/screen.scss */
+  /* line 316, ../sass/screen.scss */
   .banner p {
     width: 150px;
     top: 160px;
@@ -408,14 +397,14 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /*desktop resizes gradient overlay of banner image, shifts color to light grey*/
-  /* line 334, ../sass/screen.scss */
+  /* line 327, ../sass/screen.scss */
   .banner::after {
     background: linear-gradient(to right, rgba(240, 240, 240, 0) 400px, #f0f0f0);
     height: 300px;
     width: 505px;
   }
 
-  /* line 340, ../sass/screen.scss */
+  /* line 333, ../sass/screen.scss */
   .watch iframe {
     display: block;
     margin: auto;
@@ -423,13 +412,13 @@ nav ul li a:hover, nav ul li a:active {
 
   /*********  main content area styling  ***********/
   /* height for top row */
-  /* line 349, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   .event, .splash-about {
     height: 220px;
   }
 
   /* width for left column */
-  /* line 355, ../sass/screen.scss */
+  /* line 348, ../sass/screen.scss */
   .event, .listen, .splash-about, .watch {
     display: inline-block;
     width: 50%;
@@ -442,18 +431,18 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /* width for right column */
-  /* line 368, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   .splash-about, .watch {
     float: right;
   }
 
   /* set text overflow for splash page about section **/
-  /* line 374, ../sass/screen.scss */
+  /* line 367, ../sass/screen.scss */
   .splash-about {
     overflow: scroll;
   }
 
-  /* line 378, ../sass/screen.scss */
+  /* line 371, ../sass/screen.scss */
   .banner::after {
     content: "";
     background: linear-gradient(to right, rgba(26, 6, 3, 0) 280px, #1a0603);
