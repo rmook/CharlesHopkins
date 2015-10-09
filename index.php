@@ -19,7 +19,7 @@ include(ROOT_PATH . 'inc/header.php');
 		<!-- ************* About SECTION ************ -->
 
 		<div class="content container">
-			<h1><a href="<?php echo BASE_URL;?>About"><img src="img/Logos/CHbuttonBROWN.png">About</a></h1>
+			<a href="<?php echo BASE_URL;?>About">About</a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
