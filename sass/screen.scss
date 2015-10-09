@@ -50,6 +50,7 @@ nav {
   font-size: .5rem;
   font-family: 'Poiret One', Arial;
   .logo {
+    display: inline-block;
     margin-left: 5px;
     margin-top: 5px;
     a {
@@ -98,19 +99,6 @@ nav {
 .selected {
   background-color: $selected;
 }
-
-    /*displays and positions navicon in mobile view*/
-
-#navicon {
-  background: url('../img/navicon.png') no-repeat;
-  width: 30px;
-  height: 50px;
-  display: inline-block;
-  position: absolute;
-  right: 15px;
-  top: 10px;
-}
- 
 
   /** banner styling **/
 
@@ -268,7 +256,7 @@ nav {
 
 @media only screen and (min-width : 768px) {
 
-    /*show about and watch sections*/
+    /*toggle hidden / shown section */
 
 .mobile-hide {
   display: inline-block;
@@ -284,7 +272,7 @@ nav {
     display: inline;
     float: right;
     padding: 0;
-    padding-right: 10px;
+    padding-right: 8px;
     opacity: 1;
     margin: 0 auto;
     li {
@@ -293,9 +281,10 @@ nav {
       a {
         display: inline-block;
         padding: 0;
-        width: 75px;
+        width: 70px;
         text-align: center;
         line-height: 50px;
+        font-size: 1.5rem;
         box-sizing: border-box;
       }
     }
@@ -312,6 +301,7 @@ nav {
   .banner {
     height: 300px;
     background-color: #F0f0f0;
+    background-size: contain;
     img {
       float: right;
       margin-right: 20px;
@@ -325,64 +315,11 @@ nav {
     }
   }
 
-  /*desktop resizes gradient overlay of banner image, shifts color to light grey*/
-
-  .banner::after {
-    background: linear-gradient(to right, rgba(240, 240, 240,0) 400px, rgba(240, 240, 240,1));
-    height: 300px;
-    width: 505px;
-  }
-
-  .watch iframe {
-    display: block;
-    margin: auto;
-  }
 
   /*********  main content area styling  ***********/
 
-  /* height for top row */
-
-  .event, .splash-about{
-    height: 220px;
-  }
-
-  /* width for left column */
-
-  .event, .listen, .splash-about, .watch{
-    display: inline-block;
-    width: 50%;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 30px;
-    -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-        box-sizing: border-box;
-  }
-
-  /* width for right column */
-
-  .splash-about, .watch {
-    float: right;
-  }
-
-  /* set text overflow for splash page about section **/
-
-  .splash-about {
-    overflow: scroll;
-  }
-
-.banner::after {
-  content: "";
-  background: linear-gradient(to right, rgba(26,6,3,0) 280px, rgba(26,6,3,1));
-  margin-top: 50px;
-  height: 190px;
-  width: 320px;
-  top: 0;
-  left: 0;
-  position: absolute;
-  z-index: 2;
 }
-}
+
 
 
 
