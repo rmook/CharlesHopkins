@@ -39,7 +39,7 @@ include(ROOT_PATH . 'inc/header.php');
 		</div>
 
 		<!-- ************* Watch SECTION ************ -->
-		<div class="content container grid-4">
+		<div class="content mobile-hide container grid-4">
 			<a href="#"><h1>Watch</h1></a>
 			<iframe src="https://player.vimeo.com/video/69186856?color=8ee59c&portrait=0" width="221" height="166" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>			
 		</div>

@@ -36,9 +36,16 @@ body {
   line-height: 1.4; 
 }
 
+@media only screen and (max-width : 767px) {
+	.mobile-hide {
+		display: none !important; 
+	}
+}
+
 /*********** Mobile Styling ************/
 
 /** mobile nav **/
+
 
 #navicon {
   background: url('../img/navicon.png') no-repeat;
@@ -334,9 +341,15 @@ nav {
 
   /*********  main content area styling  ***********/
 
-	.container p {
-		padding: 30px;
-	}
+		.container {
+			vertical-align: top;
+			a {
+				display: block;
+			}
+			p {
+				padding: 30px;
+			}
+		}
 }
 
 

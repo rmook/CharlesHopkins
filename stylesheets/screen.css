@@ -93,9 +93,15 @@ body {
   line-height: 1.4;
 }
 
+@media only screen and (max-width: 767px) {
+  /* line 40, ../sass/screen.scss */
+  .mobile-hide {
+    display: none !important;
+  }
+}
 /*********** Mobile Styling ************/
 /** mobile nav **/
-/* line 43, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 #navicon {
   background: url("../img/navicon.png") no-repeat;
   width: 30px;
@@ -106,7 +112,7 @@ body {
   top: 10px;
 }
 
-/* line 53, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 nav {
   position: fixed;
   top: 0;
@@ -117,13 +123,13 @@ nav {
   font-size: .5rem;
   font-family: 'Poiret One', Arial;
 }
-/* line 62, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 nav .logo {
   display: inline-block;
   margin-left: 5px;
   margin-top: 5px;
 }
-/* line 66, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 nav .logo a {
   display: inline-block;
   height: 40px;
@@ -136,7 +142,7 @@ nav .logo a {
   letter-spacing: 1.5;
   color: #fff;
 }
-/* line 80, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 nav ul {
   display: none;
   height: auto;
@@ -146,34 +152,34 @@ nav ul {
   margin: 0;
   z-index: 9000;
 }
-/* line 88, ../sass/screen.scss */
+/* line 95, ../sass/screen.scss */
 nav ul li {
   padding-bottom: 15px;
   padding-top: 15px;
   text-align: center;
   font-size: 2rem;
 }
-/* line 93, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 nav ul li a {
   color: #fff;
   padding: 5px;
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
 }
-/* line 99, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 nav ul li a:hover, nav ul li a:active {
   background-color: #8d795b;
 }
 
 /*changes the color of the link to a current page.  
 "selected" class is added by PHP to the header include file*/
-/* line 109, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .selected {
   background-color: #8d795b;
 }
 
 /** banner styling **/
-/* line 115, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .banner {
   height: 190px;
   width: 100%;
@@ -183,23 +189,23 @@ nav ul li a:hover, nav ul li a:active {
 }
 
 /*shifts following elements from under the nav*/
-/* line 125, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 .filler {
   height: 50px;
 }
 
-/* line 129, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 .filler-bottom {
   height: 90px;
 }
 
 /*main content area styling*/
-/* line 136, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .mobile-hide {
   display: none;
 }
 
-/* line 140, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .content {
   height: auto;
   padding-top: 20px;
@@ -207,18 +213,18 @@ nav ul li a:hover, nav ul li a:active {
   text-align: center;
   width: 100%;
 }
-/* line 146, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .content iframe {
   margin-top: 16px;
 }
-/* line 149, ../sass/screen.scss */
+/* line 156, ../sass/screen.scss */
 .content p {
   margin-top: 16px;
   margin-right: 15px;
   margin-left: 25px;
   text-align: left;
 }
-/* line 155, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .content a h1 {
   display: inline-block;
   margin-top: 0px;
@@ -232,11 +238,11 @@ nav ul li a:hover, nav ul li a:active {
 }
 
 /* events area styling */
-/* line 171, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .event p {
   text-align: center;
 }
-/* line 174, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .event button {
   display: block;
   margin-left: auto;
@@ -250,25 +256,25 @@ nav ul li a:hover, nav ul li a:active {
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
 }
-/* line 187, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .event button:hover, .event button:active {
   background-color: #1FA513;
   border: 2px solid #c08d42;
 }
 
-/* line 193, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .splash-about, .watch {
   display: none;
 }
 
 /*listen area styling */
-/* line 199, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .listen iframe {
   margin-top: 15px;
 }
 
 /* about page mobile styling */
-/* line 204, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .headshot {
   float: left;
   margin-left: 25px;
@@ -281,7 +287,7 @@ nav ul li a:hover, nav ul li a:active {
 }
 
 /** Footer Styling **/
-/* line 217, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 .footer {
   display: inline-block;
   position: fixed;
@@ -291,7 +297,7 @@ nav ul li a:hover, nav ul li a:active {
   background-color: #5a4a43;
   color: #ddd;
 }
-/* line 225, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 .footer p {
   display: inline;
   float: left;
@@ -301,25 +307,25 @@ nav ul li a:hover, nav ul li a:active {
   font-size: 1rem;
   font-family: 'Poiret One', Arial;
 }
-/* line 233, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .footer p a {
   color: #ddd;
   text-decoration: underline;
 }
-/* line 238, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .footer .social-links {
   display: inline-block;
   float: right;
   padding-left: 0px;
   margin-top: 10px;
 }
-/* line 243, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .footer .social-links .social-icon {
   display: inline;
   padding-right: 5px;
   margin-right: 15px;
 }
-/* line 247, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .footer .social-links .social-icon a img {
   max-width: 40px;
   max-height: 40px;
@@ -329,18 +335,18 @@ nav ul li a:hover, nav ul li a:active {
 /******************DESKTOP   STYLING  ********************/
 @media only screen and (min-width: 768px) {
   /*toggle hidden / shown section */
-  /* line 262, ../sass/screen.scss */
+  /* line 269, ../sass/screen.scss */
   .mobile-hide {
     display: inline-block;
   }
 
-  /* line 266, ../sass/screen.scss */
+  /* line 273, ../sass/screen.scss */
   .large-hide {
     display: none !important;
   }
 
   /** desktop nav **/
-  /* line 272, ../sass/screen.scss */
+  /* line 279, ../sass/screen.scss */
   nav ul {
     display: inline;
     float: right;
@@ -349,12 +355,12 @@ nav ul li a:hover, nav ul li a:active {
     opacity: 1;
     margin: 0 auto;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 286, ../sass/screen.scss */
   nav ul li {
     display: inline;
     padding-bottom: 0px;
   }
-  /* line 282, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   nav ul li a {
     display: inline-block;
     padding: 0;
@@ -366,25 +372,25 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /** desktop Banner **/
-  /* line 296, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   .banner-large {
     width: 100%;
     height: 300px;
   }
-  /* line 299, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   .banner-large .left-image {
     position: absolute;
     top: 50px;
     left: 0px;
     background-color: #F0f0f0;
   }
-  /* line 304, ../sass/screen.scss */
+  /* line 311, ../sass/screen.scss */
   .banner-large .left-image img {
     height: 300px;
     width: 500px;
     margin: 0;
   }
-  /* line 310, ../sass/screen.scss */
+  /* line 317, ../sass/screen.scss */
   .banner-large .right-logo {
     position: absolute;
     top: 50px;
@@ -394,14 +400,14 @@ nav ul li a:hover, nav ul li a:active {
     text-align: center;
     background: #f1f1f1;
   }
-  /* line 318, ../sass/screen.scss */
+  /* line 325, ../sass/screen.scss */
   .banner-large .right-logo img {
     vertical-align: top;
     width: 80%;
     max-width: 400px;
     margin-top: 40px;
   }
-  /* line 324, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   .banner-large .right-logo .banner-text {
     padding-left: 20px;
     padding-right: 20px;
@@ -411,7 +417,15 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /*********  main content area styling  ***********/
-  /* line 337, ../sass/screen.scss */
+  /* line 344, ../sass/screen.scss */
+  .container {
+    vertical-align: top;
+  }
+  /* line 346, ../sass/screen.scss */
+  .container a {
+    display: block;
+  }
+  /* line 349, ../sass/screen.scss */
   .container p {
     padding: 30px;
   }
