@@ -392,15 +392,16 @@ nav ul li a:hover, nav ul li a:active {
     left: 500px;
     height: 300px;
     text-align: center;
+    background: #f1f1f1;
   }
-  /* line 317, ../sass/screen.scss */
+  /* line 318, ../sass/screen.scss */
   .banner-large .right-logo img {
     vertical-align: top;
     width: 80%;
     max-width: 400px;
     margin-top: 40px;
   }
-  /* line 323, ../sass/screen.scss */
+  /* line 324, ../sass/screen.scss */
   .banner-large .right-logo .banner-text {
     padding-left: 20px;
     padding-right: 20px;
