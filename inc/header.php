@@ -14,7 +14,7 @@
 <!-- 	*********** NAVBAR *************  -->
 
 	<nav role="navigation">
-		<a href="#" id="navicon"></a>
+		<a href="#" id="navicon" class="large-hide"></a>
 		<div class="logo">
 			<a href="<?php echo BASE_URL;?>">Charles Hopkins</a>
 		</div>

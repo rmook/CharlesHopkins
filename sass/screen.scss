@@ -40,6 +40,16 @@ body {
 
 /** mobile nav **/
 
+#navicon {
+  background: url('../img/navicon.png') no-repeat;
+  width: 30px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
 nav {
   position: fixed;
   top: 0;
@@ -254,7 +264,7 @@ nav {
 }
 
 .large-hide {
-  display: none;
+  display: none !important;
 }
 
 /** desktop nav **/
@@ -280,12 +290,6 @@ nav {
       }
     }
   }
-
-  /*desktop removes navicon*/
-
-  #navicon{
-      display: none;
-    }
 
   /** desktop Banner **/
 
@@ -313,14 +317,16 @@ nav {
        img {
          vertical-align: top;
          width: 80%;
+         max-width: 400px;
          margin-top: 40px;
-         
-       p {
+      }
+      .banner-text {
+         padding-left: 20px;
+         padding-right: 20px;
          font-family: 'Poiret One', Arial;
          color: $background;
          font-size: 2rem;
         }
-      }
     }
   }
 

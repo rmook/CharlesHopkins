@@ -18,7 +18,7 @@ include(ROOT_PATH . 'inc/header.php');
 		</div>
 		<div class="right-logo">
 			<img src="img/Logos/CHLOGOS1NOstarsHORIZ.png">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
 	</div>
 
