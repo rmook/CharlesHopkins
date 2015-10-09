@@ -1,0 +1,468 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* colors */
+/*********** Remove default styling ***********/
+/* line 19, ../sass/screen.scss */
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 24, ../sass/screen.scss */
+li {
+  list-style: none;
+}
+
+/*fonts*/
+/* line 29, ../sass/screen.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 33, ../sass/screen.scss */
+body {
+  font-size: 1.4rem;
+  font-family: 'Merriweather', serif;
+  line-height: 1.4;
+}
+
+/*********** Mobile Styling ************/
+/** mobile nav **/
+/* line 43, ../sass/screen.scss */
+nav {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  height: 50px;
+  background-color: #5a4a43;
+  font-size: .5rem;
+  font-family: 'Poiret One', Arial;
+}
+/* line 52, ../sass/screen.scss */
+nav .logo {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+/* line 55, ../sass/screen.scss */
+nav .logo a {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 48px;
+  background: url("../img/Logos/TROMBONEbuttonWHITE.png") no-repeat;
+  background-size: contain;
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1.5;
+  color: #fff;
+}
+/* line 69, ../sass/screen.scss */
+nav ul {
+  display: none;
+  height: auto;
+  background: #5a4a43;
+  opacity: 0.95;
+  padding: 0;
+  margin: 0;
+  z-index: 9000;
+}
+/* line 77, ../sass/screen.scss */
+nav ul li {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 2rem;
+}
+/* line 82, ../sass/screen.scss */
+nav ul li a {
+  color: #fff;
+  padding: 5px;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+/* line 88, ../sass/screen.scss */
+nav ul li a:hover, nav ul li a:active {
+  background-color: #8d795b;
+}
+
+/*changes the color of the link to a current page.  
+"selected" class is added by PHP to the header include file*/
+/* line 98, ../sass/screen.scss */
+.selected {
+  background-color: #8d795b;
+}
+
+/*displays and positions navicon in mobile view*/
+/* line 104, ../sass/screen.scss */
+#navicon {
+  background: url("../img/navicon.png") no-repeat;
+  width: 30px;
+  height: 50px;
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
+/** banner styling **/
+/* line 117, ../sass/screen.scss */
+.banner {
+  height: 190px;
+  width: 100%;
+  background: url("../img/C73C2723.jpg") no-repeat;
+  background-size: cover;
+  background-color: #1a0603;
+}
+/* line 123, ../sass/screen.scss */
+.banner p {
+  font-family: 'Poiret One', Arial;
+  color: #5a4a43;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  font-size: 2rem;
+  z-index: 10;
+}
+
+/*shifts following elements from under the nav*/
+/* line 136, ../sass/screen.scss */
+.filler {
+  height: 50px;
+}
+
+/* line 140, ../sass/screen.scss */
+.filler-bottom {
+  height: 90px;
+}
+
+/*main content area styling*/
+/* line 147, ../sass/screen.scss */
+.mobile-hide {
+  display: none;
+}
+
+/* line 151, ../sass/screen.scss */
+.content {
+  height: auto;
+  padding-top: 20px;
+  display: inline-block;
+  width: 100%;
+}
+/* line 156, ../sass/screen.scss */
+.content iframe {
+  margin-top: 16px;
+}
+/* line 159, ../sass/screen.scss */
+.content p {
+  margin-top: 16px;
+  margin-right: 15px;
+  margin-left: 25px;
+}
+/* line 163, ../sass/screen.scss */
+.content p ul {
+  padding-left: 0px;
+}
+/* line 165, ../sass/screen.scss */
+.content p ul li {
+  margin-left: 25px;
+  margin-right: 15px;
+}
+/* line 170, ../sass/screen.scss */
+.content p a {
+  text-decoration: underline;
+}
+/* line 174, ../sass/screen.scss */
+.content h1, .content h2, .content h4 {
+  font-family: 'Poiret One', Arial;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 2rem;
+}
+
+/* events area styling */
+/* line 186, ../sass/screen.scss */
+.event p {
+  text-align: center;
+}
+/* line 189, ../sass/screen.scss */
+.event button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #c08d42;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 140px;
+  font-weight: bold;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+}
+/* line 202, ../sass/screen.scss */
+.event button:hover, .event button:active {
+  background-color: #1FA513;
+  border: 2px solid #c08d42;
+}
+
+/* line 208, ../sass/screen.scss */
+.splash-about, .watch {
+  display: none;
+}
+
+/*listen area styling */
+/* line 214, ../sass/screen.scss */
+.listen iframe {
+  margin-top: 15px;
+}
+
+/* about page mobile styling */
+/* line 219, ../sass/screen.scss */
+.headshot {
+  float: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  height: 200px;
+  width: 140px;
+  background: url("../img/headshot.jpg") no-repeat;
+  background-size: cover;
+}
+
+/** Footer Styling **/
+/* line 232, ../sass/screen.scss */
+.footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: #5a4a43;
+  color: #ddd;
+}
+/* line 240, ../sass/screen.scss */
+.footer p {
+  display: inline;
+  float: left;
+  width: 50%;
+  margin-top: 8px;
+  margin-left: 15px;
+  font-size: 1rem;
+  font-family: 'Poiret One', Arial;
+}
+/* line 248, ../sass/screen.scss */
+.footer p a {
+  color: #ddd;
+  text-decoration: underline;
+}
+/* line 253, ../sass/screen.scss */
+.footer .social-links {
+  display: inline-block;
+  float: right;
+  padding-left: 0px;
+  margin-top: 10px;
+}
+/* line 258, ../sass/screen.scss */
+.footer .social-links .social-icon {
+  display: inline;
+  padding-right: 5px;
+  margin-right: 15px;
+}
+/* line 262, ../sass/screen.scss */
+.footer .social-links .social-icon a img {
+  max-width: 40px;
+  max-height: 40px;
+  opacity: 0.6;
+}
+
+/******************DESKTOP   STYLING  ********************/
+@media only screen and (min-width: 768px) {
+  /*show about and watch sections*/
+  /* line 277, ../sass/screen.scss */
+  .mobile-hide {
+    display: inline-block;
+  }
+
+  /* line 281, ../sass/screen.scss */
+  .large-hide {
+    display: none;
+  }
+
+  /** desktop nav **/
+  /* line 287, ../sass/screen.scss */
+  nav ul {
+    display: inline;
+    float: right;
+    padding: 0;
+    padding-right: 10px;
+    opacity: 1;
+    margin: 0 auto;
+  }
+  /* line 294, ../sass/screen.scss */
+  nav ul li {
+    display: inline;
+    padding-bottom: 0px;
+  }
+  /* line 297, ../sass/screen.scss */
+  nav ul li a {
+    display: inline-block;
+    padding: 0;
+    width: 75px;
+    text-align: center;
+    line-height: 50px;
+    box-sizing: border-box;
+  }
+
+  /*desktop removes navicon*/
+  /* line 310, ../sass/screen.scss */
+  #navicon {
+    display: none;
+  }
+
+  /** desktop Banner **/
+  /* line 316, ../sass/screen.scss */
+  .banner {
+    height: 300px;
+    background-color: #F0f0f0;
+  }
+  /* line 319, ../sass/screen.scss */
+  .banner img {
+    float: right;
+    margin-right: 20px;
+  }
+  /* line 323, ../sass/screen.scss */
+  .banner p {
+    width: 150px;
+    top: 160px;
+    right: 120px;
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  /*desktop resizes gradient overlay of banner image, shifts color to light grey*/
+  /* line 334, ../sass/screen.scss */
+  .banner::after {
+    background: linear-gradient(to right, rgba(240, 240, 240, 0) 400px, #f0f0f0);
+    height: 300px;
+    width: 505px;
+  }
+
+  /* line 340, ../sass/screen.scss */
+  .watch iframe {
+    display: block;
+    margin: auto;
+  }
+
+  /*********  main content area styling  ***********/
+  /* height for top row */
+  /* line 349, ../sass/screen.scss */
+  .event, .splash-about {
+    height: 220px;
+  }
+
+  /* width for left column */
+  /* line 355, ../sass/screen.scss */
+  .event, .listen, .splash-about, .watch {
+    display: inline-block;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* width for right column */
+  /* line 368, ../sass/screen.scss */
+  .splash-about, .watch {
+    float: right;
+  }
+
+  /* set text overflow for splash page about section **/
+  /* line 374, ../sass/screen.scss */
+  .splash-about {
+    overflow: scroll;
+  }
+
+  /* line 378, ../sass/screen.scss */
+  .banner::after {
+    content: "";
+    background: linear-gradient(to right, rgba(26, 6, 3, 0) 280px, #1a0603);
+    margin-top: 50px;
+    height: 190px;
+    width: 320px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 2;
+  }
+}
