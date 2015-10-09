@@ -7,6 +7,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Poiret+One|Merriweather:400,700' rel='stylesheet' type='text/css'>
     <link href="<?php echo BASE_URL;?>/stylesheets/normalize.css" rel="stylesheet" type="text/css" >
 	<link href="<?php echo BASE_URL;?>/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
+	<link href="<?php echo BASE_URL;?>/stylesheets/grid.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
 </head>
 
 <body>
