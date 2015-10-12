@@ -21,10 +21,11 @@ include(ROOT_PATH . 'inc/header.php');
 		</div>
 	</div>
 
-<!-- ************* About SECTION ************ -->
+<!-- ************* News SECTION ************ -->
 		
 		<div class="content container grid-12">
 			<a href="<?php echo BASE_URL;?>/News"><h1>News</h1></a>
+			<p>11/11/15</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 

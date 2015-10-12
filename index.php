@@ -48,6 +48,7 @@ include(ROOT_PATH . '/inc/header.php');
 
 		<div class="content container grid-4">
 			<a href="<?php echo BASE_URL;?>/Lessons"><h1>Lessons</h1></a>
+			<p>Here is some information about Lessons</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
@@ -55,6 +56,7 @@ include(ROOT_PATH . '/inc/header.php');
 
 		<div class="content container grid-4">
 			<a href="<?php echo BASE_URL;?>/News"><h1>News</h1></a>
+			<p>11/11/15</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
@@ -62,13 +64,15 @@ include(ROOT_PATH . '/inc/header.php');
 
 		<div class="content mobile-hide container grid-6">
 			<a href="<?php echo BASE_URL;?>/Links"><h1>Links</h1></a>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
+			<p>This is a <a>Link</a></p>
+			<p>This is another <a>Link</a></p>
 		</div>
 		
 				<!-- ************* Reserach SECTION ************ -->
 
 		<div class="content mobile-hide container grid-6">
 			<a href="<?php echo BASE_URL;?>/Research"><h1>Research</h1></a>
+			<p>Here Is some Research!</p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 		
