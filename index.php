@@ -27,14 +27,14 @@ include(ROOT_PATH . '/inc/header.php');
 		<!-- ************* LISTEN SECTION ************ -->
 
 		<div class="content container grid-6">
-			<a href="<?php echo BASE_URL;?>Listen"><h1>Listen</h1></a>
+			<a href="#"<h1>Listen</h1></a>
 			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/193055163&amp;color=c08d42&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 		</div>
 		
 		<!-- ************* About SECTION ************ -->
 
 		<div class="content container grid-6">
-			<a href="<?php echo BASE_URL;?>About"><h1>About</h1></a>
+			<a href="<?php echo BASE_URL;?>/About"><h1>About</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
@@ -47,28 +47,28 @@ include(ROOT_PATH . '/inc/header.php');
 		<!-- ************* LESSONS SECTION ************ -->
 
 		<div class="content container grid-4">
-			<a href="<?php echo BASE_URL;?>Lessons"><h1>Lessons</h1></a>
+			<a href="<?php echo BASE_URL;?>/Lessons"><h1>Lessons</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
 		<!-- ************* NEWS SECTION ************ -->
 
 		<div class="content container grid-4">
-			<a href="<?php echo BASE_URL;?>News"><h1>News</h1></a>
+			<a href="<?php echo BASE_URL;?>/News"><h1>News</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
 		<!-- ************* Links SECTION ************ -->
 
 		<div class="content mobile-hide container grid-6">
-			<a href="<?php echo BASE_URL;?>Links"><h1>Links</h1></a>
+			<a href="<?php echo BASE_URL;?>/Links"><h1>Links</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 		
 				<!-- ************* Reserach SECTION ************ -->
 
 		<div class="content mobile-hide container grid-6">
-			<a href="<?php echo BASE_URL;?>Research"><h1>Research</h1></a>
+			<a href="<?php echo BASE_URL;?>/Research"><h1>Research</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 		

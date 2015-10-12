@@ -13,10 +13,10 @@ include(ROOT_PATH . 'inc/header.php');
 	
 	<div class="banner-large mobile-hide">	
 		<div class="left-image">
-			<img src="<?php echo BASE_URL ?>img/C73C2723.jpg">
+			<img src="<?php echo BASE_URL ?>/img/C73C2723.jpg">
 		</div>
 		<div class="right-logo">
-			<img src="<?php echo BASE_URL ?>img/Logos/CHLOGOS1NOstarsHORIZ.png">
+			<img src="<?php echo BASE_URL ?>/img/Logos/CHLOGOS1NOstarsHORIZ.png">
 			<p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 		</div>
 	</div>
@@ -24,7 +24,7 @@ include(ROOT_PATH . 'inc/header.php');
 <!-- ************* About SECTION ************ -->
 		
 		<div class="content container grid-12">
-			<a href="<?php echo BASE_URL;?>News"><h1>News</h1></a>
+			<a href="<?php echo BASE_URL;?>/News"><h1>News</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
