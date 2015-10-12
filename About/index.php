@@ -23,14 +23,10 @@ include(ROOT_PATH . 'inc/header.php');
 
 <!-- ************* About SECTION ************ -->
 		
-	<div class="main-area container .grid-container">
-
-		<div class="about">
-			<h1><a href="<?php echo BASE_URL;?>About">About</a></h1>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
+		<div class="content container grid-12">
+			<a href="<?php echo BASE_URL;?>About"><h1>About</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
-	</div>
 
 <?php
 include(ROOT_PATH . 'inc/footer.php');
