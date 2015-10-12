@@ -3,7 +3,7 @@
 
 $pageID = "Charles Hopkins, Trombone";
 require_once("inc/config.php");
-include(ROOT_PATH . 'inc/header.php');
+include(ROOT_PATH . '/inc/header.php');
 
 ?>
 
@@ -58,6 +58,20 @@ include(ROOT_PATH . 'inc/header.php');
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 
+		<!-- ************* Links SECTION ************ -->
+
+		<div class="content mobile-hide container grid-6">
+			<a href="<?php echo BASE_URL;?>Links"><h1>Links</h1></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
+		</div>
+		
+				<!-- ************* Reserach SECTION ************ -->
+
+		<div class="content mobile-hide container grid-6">
+			<a href="<?php echo BASE_URL;?>Research"><h1>Research</h1></a>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
+		</div>
+		
 	</div>
 	
 <?php

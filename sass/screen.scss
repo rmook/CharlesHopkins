@@ -172,53 +172,6 @@ nav {
   }
 }
 
-  /* events area styling */
-
-.event {
-  p {
-    text-align: center;
-  }
-  button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: $action;
-    border: none;
-    border-radius: 5px;
-    height: 40px;
-    width: 140px;
-    font-weight: bold;
-    -webkit-transition: background-color .5s;
-    transition: background-color .5s;
-  }
-  button:hover, button:active {
-    background-color: $actionContrast;
-    border: 2px solid $action;
-  }
-}
-
-.splash-about, .watch {
-  display: none;
-}
-
-  /*listen area styling */
-
-.listen iframe {
-  margin-top: 15px;
-}
-  /* about page mobile styling */
-
-.headshot {
-  float: left;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 20px;
-  height: 200px;
-  width: 140px;
-  background: url('../img/headshot.jpg') no-repeat;
-  background-size: cover;
-}
-
   /** Footer Styling **/
 
 .footer {

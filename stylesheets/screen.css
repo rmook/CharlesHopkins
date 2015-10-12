@@ -237,57 +237,8 @@ nav ul li a:hover, nav ul li a:active {
   font-weight: bold;
 }
 
-/* events area styling */
-/* line 178, ../sass/screen.scss */
-.event p {
-  text-align: center;
-}
-/* line 181, ../sass/screen.scss */
-.event button {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #c08d42;
-  border: none;
-  border-radius: 5px;
-  height: 40px;
-  width: 140px;
-  font-weight: bold;
-  -webkit-transition: background-color .5s;
-  transition: background-color .5s;
-}
-/* line 194, ../sass/screen.scss */
-.event button:hover, .event button:active {
-  background-color: #1FA513;
-  border: 2px solid #c08d42;
-}
-
-/* line 200, ../sass/screen.scss */
-.splash-about, .watch {
-  display: none;
-}
-
-/*listen area styling */
-/* line 206, ../sass/screen.scss */
-.listen iframe {
-  margin-top: 15px;
-}
-
-/* about page mobile styling */
-/* line 211, ../sass/screen.scss */
-.headshot {
-  float: left;
-  margin-left: 25px;
-  margin-right: 25px;
-  margin-bottom: 20px;
-  height: 200px;
-  width: 140px;
-  background: url("../img/headshot.jpg") no-repeat;
-  background-size: cover;
-}
-
 /** Footer Styling **/
-/* line 224, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .footer {
   display: inline-block;
   position: fixed;
@@ -297,7 +248,7 @@ nav ul li a:hover, nav ul li a:active {
   background-color: #5a4a43;
   color: #ddd;
 }
-/* line 232, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .footer p {
   display: inline;
   float: left;
@@ -307,25 +258,25 @@ nav ul li a:hover, nav ul li a:active {
   font-size: 1rem;
   font-family: 'Poiret One', Arial;
 }
-/* line 240, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .footer p a {
   color: #ddd;
   text-decoration: underline;
 }
-/* line 245, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .footer .social-links {
   display: inline-block;
   float: right;
   padding-left: 0px;
   margin-top: 10px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .footer .social-links .social-icon {
   display: inline;
   padding-right: 5px;
   margin-right: 15px;
 }
-/* line 254, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .footer .social-links .social-icon a img {
   max-width: 40px;
   max-height: 40px;
@@ -335,18 +286,18 @@ nav ul li a:hover, nav ul li a:active {
 /******************DESKTOP   STYLING  ********************/
 @media only screen and (min-width: 768px) {
   /*toggle hidden / shown section */
-  /* line 269, ../sass/screen.scss */
+  /* line 222, ../sass/screen.scss */
   .mobile-hide {
     display: inline-block;
   }
 
-  /* line 273, ../sass/screen.scss */
+  /* line 226, ../sass/screen.scss */
   .large-hide {
     display: none !important;
   }
 
   /** desktop nav **/
-  /* line 279, ../sass/screen.scss */
+  /* line 232, ../sass/screen.scss */
   nav ul {
     display: inline;
     float: right;
@@ -355,12 +306,12 @@ nav ul li a:hover, nav ul li a:active {
     opacity: 1;
     margin: 0 auto;
   }
-  /* line 286, ../sass/screen.scss */
+  /* line 239, ../sass/screen.scss */
   nav ul li {
     display: inline;
     padding-bottom: 0px;
   }
-  /* line 289, ../sass/screen.scss */
+  /* line 242, ../sass/screen.scss */
   nav ul li a {
     display: inline-block;
     padding: 0;
@@ -372,25 +323,25 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /** desktop Banner **/
-  /* line 303, ../sass/screen.scss */
+  /* line 256, ../sass/screen.scss */
   .banner-large {
     width: 100%;
     height: 300px;
   }
-  /* line 306, ../sass/screen.scss */
+  /* line 259, ../sass/screen.scss */
   .banner-large .left-image {
     position: absolute;
     top: 50px;
     left: 0px;
     background-color: #F0f0f0;
   }
-  /* line 311, ../sass/screen.scss */
+  /* line 264, ../sass/screen.scss */
   .banner-large .left-image img {
     height: 300px;
     width: 500px;
     margin: 0;
   }
-  /* line 317, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   .banner-large .right-logo {
     position: absolute;
     top: 50px;
@@ -400,14 +351,14 @@ nav ul li a:hover, nav ul li a:active {
     text-align: center;
     background: #f1f1f1;
   }
-  /* line 325, ../sass/screen.scss */
+  /* line 278, ../sass/screen.scss */
   .banner-large .right-logo img {
     vertical-align: top;
     width: 80%;
     max-width: 400px;
     margin-top: 40px;
   }
-  /* line 331, ../sass/screen.scss */
+  /* line 284, ../sass/screen.scss */
   .banner-large .right-logo .banner-text {
     padding-left: 20px;
     padding-right: 20px;
@@ -417,15 +368,15 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /*********  main content area styling  ***********/
-  /* line 344, ../sass/screen.scss */
+  /* line 297, ../sass/screen.scss */
   .container {
     vertical-align: top;
   }
-  /* line 346, ../sass/screen.scss */
+  /* line 299, ../sass/screen.scss */
   .container a {
     display: block;
   }
-  /* line 349, ../sass/screen.scss */
+  /* line 302, ../sass/screen.scss */
   .container p {
     padding: 30px;
   }
