@@ -1,6 +1,6 @@
 <?php
 
-$pageID = 'About';
+$pageID = 'News';
 require_once("../inc/config.php");
 include(ROOT_PATH . 'inc/header.php');
 
@@ -24,7 +24,7 @@ include(ROOT_PATH . 'inc/header.php');
 <!-- ************* About SECTION ************ -->
 		
 		<div class="content container grid-12">
-			<a href="<?php echo BASE_URL;?>About"><h1>About</h1></a>
+			<a href="<?php echo BASE_URL;?>News"><h1>News</h1></a>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
 		</div>
 

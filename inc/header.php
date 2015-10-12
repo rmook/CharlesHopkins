@@ -21,12 +21,12 @@
 		</div>
 		<ul id="menu">
 		 	<li><a href="<?php echo BASE_URL;?>About/" class = "<?php if ($pageID == "About") {echo "selected";}?>">About</a></li>
-		 	<li><a href="#">News</a></li>
-		 	<li><a href="#">Lessons</a></li>
+		 	<li><a href="<?php echo BASE_URL;?>News/" class = "<?php if ($pageID == "News") {echo "selected";}?>">News</a></li>
+		 	<li><a href="<?php echo BASE_URL;?>Lessons/" class = "<?php if ($pageID == "Lessons") {echo "selected";}?>">Lessons</a></li>
 		 	<li><a href="#">Listen</a></li>
 		 	<li><a href="#">Watch</a></li>
-		 	<li><a href="#">Links</a></li>
-		 	<li><a href="#">Research</a></li>
+		 	<li><a href="<?php echo BASE_URL;?>Links/" class = "<?php if ($pageID == "Links") {echo "selected";}?>">Links</a></li>
+		 	<li><a href="<?php echo BASE_URL;?>Research/" class = "<?php if ($pageID == "Research") {echo "selected";}?>">Research</a></li>
 	     </ul>
 	</nav>
 
