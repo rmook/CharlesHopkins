@@ -188,7 +188,8 @@ nav {
     width: 50%;
     margin-top: 8px;
     margin-left: 15px;
-    font-size: 1rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
     font-family: 'Poiret One', Arial;
     a {
       color: #ddd;
@@ -298,9 +299,6 @@ nav {
 			vertical-align: top;
 			a {
 				display: block;
-			}
-			p {
-				padding: 30px;
 			}
 		}
 }
