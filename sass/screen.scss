@@ -268,27 +268,27 @@ nav {
         margin: 0;
       }
    }
-    .right-logo{
+    .right-quote{
       position: absolute;
       top: 50px;
       right: 0px;
       left: 500px;
       height: 300px;
+      font-family: 'Poiret One', Arial;
       text-align: center;    
+      color: $background;
+      padding-left: 20px;
+      padding-right: 20px;
       background: #f1f1f1;
-       img {
-         vertical-align: top;
-         width: 80%;
-         max-width: 400px;
-         margin-top: 40px;
-      }
-      .banner-text {
-         padding-left: 20px;
-         padding-right: 20px;
-         font-family: 'Poiret One', Arial;
-         color: $background;
-         font-size: 2rem;
+  		.banner-text {
+  		 	padding-top: 50px;
+         	font-size: 2rem;
         }
+     	.citation {
+         	text-align: right;
+         	padding-top: 20px;
+         	font-size: 1.5rem;
+         }
     }
   }
 
