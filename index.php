@@ -27,7 +27,7 @@ include(ROOT_PATH . '/inc/header.php');
 		<!-- ************* LISTEN SECTION ************ -->
 
 		<div class="content container grid-6">
-			<a href="https://soundcloud.com/charlestrombone"><h1>Listen<img src="<?php echo BASE_URL;?>img/ArrowIcon.png"/></h1></a>
+			<a href="https://soundcloud.com/charlestrombone" target="_blank"><h1>Listen<img src="<?php echo BASE_URL;?>img/ArrowIcon.png"/></h1></a>
 			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/155490088&amp;color=c08d42&amp;auto_play=false&amp;hide_related=false&amp;show_comments=fals&amp;show_user=true&amp;show_reposts=false"></iframe>
 		</div>
 		
@@ -40,7 +40,7 @@ include(ROOT_PATH . '/inc/header.php');
 
 		<!-- ************* Watch SECTION ************ -->
 		<div class="content mobile-hide container grid-4">
-			<a href="https://vimeo.com/charlestrombone"><h1>Watch<img src="<?php echo BASE_URL;?>img/ArrowIcon.png"/></h1></a>		
+			<a href="https://vimeo.com/charlestrombone" target="_blank"><h1>Watch<img src="<?php echo BASE_URL;?>img/ArrowIcon.png"/></h1></a>		
 			<iframe src="https://player.vimeo.com/video/142947952?color=c08d42&portrait=0" width="221" height="166" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
