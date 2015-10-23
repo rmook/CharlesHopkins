@@ -169,6 +169,11 @@ nav {
     font-family: 'Poiret One', Arial;
     font-size: 2rem;
     font-weight: bold;
+    img {
+    	max-height: 28px;
+    	max-width: 28px;
+    	vertical-align: bottom;
+    }
   }
 }
 

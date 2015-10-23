@@ -236,9 +236,15 @@ nav ul li a:hover, nav ul li a:active {
   font-size: 2rem;
   font-weight: bold;
 }
+/* line 172, ../sass/screen.scss */
+.content a h1 img {
+  max-height: 28px;
+  max-width: 28px;
+  vertical-align: bottom;
+}
 
 /** Footer Styling **/
-/* line 177, ../sass/screen.scss */
+/* line 182, ../sass/screen.scss */
 .footer {
   display: inline-block;
   position: fixed;
@@ -248,7 +254,7 @@ nav ul li a:hover, nav ul li a:active {
   background-color: #5a4a43;
   color: #ddd;
 }
-/* line 185, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .footer p {
   display: inline;
   float: left;
@@ -259,25 +265,25 @@ nav ul li a:hover, nav ul li a:active {
   line-height: 1.5rem;
   font-family: 'Poiret One', Arial;
 }
-/* line 194, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .footer p a {
   color: #ddd;
   text-decoration: underline;
 }
-/* line 199, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .footer .social-links {
   display: inline-block;
   float: right;
   padding-left: 0px;
   margin-top: 10px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .footer .social-links .social-icon {
   display: inline;
   padding-right: 5px;
   margin-right: 15px;
 }
-/* line 208, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .footer .social-links .social-icon a img {
   max-width: 40px;
   max-height: 40px;
@@ -287,18 +293,18 @@ nav ul li a:hover, nav ul li a:active {
 /******************DESKTOP   STYLING  ********************/
 @media only screen and (min-width: 768px) {
   /*toggle hidden / shown section */
-  /* line 223, ../sass/screen.scss */
+  /* line 228, ../sass/screen.scss */
   .mobile-hide {
     display: inline-block;
   }
 
-  /* line 227, ../sass/screen.scss */
+  /* line 232, ../sass/screen.scss */
   .large-hide {
     display: none !important;
   }
 
   /** desktop nav **/
-  /* line 233, ../sass/screen.scss */
+  /* line 238, ../sass/screen.scss */
   nav ul {
     display: inline;
     float: right;
@@ -307,12 +313,12 @@ nav ul li a:hover, nav ul li a:active {
     opacity: 1;
     margin: 0 auto;
   }
-  /* line 240, ../sass/screen.scss */
+  /* line 245, ../sass/screen.scss */
   nav ul li {
     display: inline;
     padding-bottom: 0px;
   }
-  /* line 243, ../sass/screen.scss */
+  /* line 248, ../sass/screen.scss */
   nav ul li a {
     display: inline-block;
     padding: 0;
@@ -324,25 +330,25 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /** desktop Banner **/
-  /* line 257, ../sass/screen.scss */
+  /* line 262, ../sass/screen.scss */
   .banner-large {
     width: 100%;
     height: 300px;
   }
-  /* line 260, ../sass/screen.scss */
+  /* line 265, ../sass/screen.scss */
   .banner-large .left-image {
     position: absolute;
     top: 50px;
     left: 0px;
     background-color: #F0f0f0;
   }
-  /* line 265, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   .banner-large .left-image img {
     height: 300px;
     width: 500px;
     margin: 0;
   }
-  /* line 271, ../sass/screen.scss */
+  /* line 276, ../sass/screen.scss */
   .banner-large .right-quote {
     position: absolute;
     top: 50px;
@@ -356,12 +362,12 @@ nav ul li a:hover, nav ul li a:active {
     padding-right: 20px;
     background: #f1f1f1;
   }
-  /* line 283, ../sass/screen.scss */
+  /* line 288, ../sass/screen.scss */
   .banner-large .right-quote .banner-text {
     padding-top: 50px;
     font-size: 2rem;
   }
-  /* line 287, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   .banner-large .right-quote .citation {
     text-align: right;
     padding-top: 20px;
@@ -369,11 +375,11 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /*********  main content area styling  ***********/
-  /* line 298, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   .container {
     vertical-align: top;
   }
-  /* line 300, ../sass/screen.scss */
+  /* line 305, ../sass/screen.scss */
   .container a {
     display: block;
   }
