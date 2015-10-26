@@ -34,5 +34,17 @@
 
 	<div class="filler"></div>
 
-</body>
-</html>
+<!-- ************* BANNER IMAGE ************ -->
+
+	<div class="banner large-hide">
+	</div>
+	
+	<div class="banner-large mobile-hide">	
+		<div class="left-image">
+			<img src="img/C73C2723.jpg">
+		</div>
+		<div class="right-quote">
+			<p class="banner-text">"He has a very healthy approach to daily routines and preaches a very important message of maintaining consistency as both a person and as a player."</p>
+			<p class="citation">-Former Student</p>
+		</div>
+	</div>

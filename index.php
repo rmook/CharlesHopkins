@@ -7,28 +7,13 @@ include(ROOT_PATH . '/inc/header.php');
 
 ?>
 
-<!-- ************* BANNER IMAGE ************ -->
-
-	<div class="banner large-hide">
-	</div>
-	
-	<div class="banner-large mobile-hide">	
-		<div class="left-image">
-			<img src="img/C73C2723.jpg">
-		</div>
-		<div class="right-quote">
-			<p class="banner-text">"He has a very healthy approach to daily routines and preaches a very important message of maintaining consistency as both a person and as a player."</p>
-			<p class="citation">-Former Student</p>
-		</div>
-	</div>
-
 	<div class="main-area container .grid-container">
 
 		<!-- ************* About SECTION ************ -->
 
 		<div class="content container grid-12">
 			<a href="<?php echo BASE_URL;?>/About"><h1>About</h1></a>
-			<p>Lessons are available throughout the Valley and from my home in Tempe, Arizona. For further information about scheduling and fees please email me <span><a href="mailto:charles.trombone@gmail.com">here.</a></span></p>		
+			<p>Lessons are available throughout the Valley and from my home in Tempe, Arizona. For further information about scheduling and fees please email me at: <a href="mailto:charles.trombone@gmail.com">charles.trombone@gmail.com</a></span></p>		
 		</div>
 
 		<!-- ************* LISTEN SECTION ************ -->
