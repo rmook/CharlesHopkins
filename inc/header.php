@@ -18,7 +18,7 @@
 	<nav role="navigation">
 		<a href="#" id="navicon" class="large-hide"></a>
 		<div class="logo">
-			<a href="<?php echo BASE_URL;?>">Charles Hopkins</a>
+			<a href="<?php echo BASE_URL;?>"></a>
 		</div>
 		<ul id="menu">
 		 	<li><a href="<?php echo BASE_URL;?>About/" class = "<?php if ($pageID == "About") {echo "selected";}?>">About</a></li>
@@ -37,6 +37,7 @@
 <!-- ************* BANNER IMAGE ************ -->
 
 	<div class="banner large-hide">
+		<img class="banner-image" src="<?php echo BASE_URL;?>img/bannerImage<?php echo rand(1,3)?>.jpg">
 	</div>
 	
 	<div class="banner-large mobile-hide">	

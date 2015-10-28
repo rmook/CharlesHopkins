@@ -126,23 +126,17 @@ nav {
 /* line 69, ../sass/screen.scss */
 nav .logo {
   display: inline-block;
-  margin-left: 5px;
-  margin-top: 5px;
 }
-/* line 73, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 nav .logo a {
   display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  padding-left: 48px;
-  background: url("../img/Logos/TROMBONEbuttonWHITE.png") no-repeat;
+  height: 50px;
+  width: 120px;
+  margin-left: 10px;
+  background: url("../img/Logos/LogoDark.png") no-repeat;
   background-size: contain;
-  font-size: 2rem;
-  font-weight: bold;
-  letter-spacing: 1.5;
-  color: #fff;
 }
-/* line 87, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 nav ul {
   display: none;
   height: auto;
@@ -152,60 +146,69 @@ nav ul {
   margin: 0;
   z-index: 9000;
 }
-/* line 95, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 nav ul li {
   padding-bottom: 15px;
   padding-top: 15px;
   text-align: center;
   font-size: 2rem;
 }
-/* line 100, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 nav ul li a {
   color: #fff;
   padding: 5px;
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
 }
-/* line 106, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 nav ul li a:hover, nav ul li a:active {
   background-color: #8d795b;
 }
 
 /*changes the color of the link to a current page.  
 "selected" class is added by PHP to the header include file*/
-/* line 116, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .selected {
   background-color: #8d795b;
 }
 
-/** banner styling **/
-/* line 122, ../sass/screen.scss */
-.banner {
-  height: 190px;
-  width: 100%;
-  background: url("../img/C73C2723.jpg") no-repeat;
-  background-size: cover;
-  background-color: #1a0603;
-}
-
 /*shifts following elements from under the nav*/
-/* line 132, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .filler {
   height: 50px;
 }
 
-/* line 136, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .filler-bottom {
   height: 60px;
 }
 
+/** banner styling **/
+/* line 126, ../sass/screen.scss */
+.banner {
+  height: 190px;
+  width: auto;
+  background-color: #1a0603;
+}
+/* line 130, ../sass/screen.scss */
+.banner img {
+  width: 100%;
+  height: 190px;
+  background-color: #1a0603;
+}
+
+/* line 137, ../sass/screen.scss */
+.banner-image {
+  object-fit: cover;
+}
+
 /*main content area styling*/
-/* line 143, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .mobile-hide {
   display: none;
 }
 
-/* line 147, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .content {
   height: auto;
   padding-top: 25px;
@@ -213,11 +216,11 @@ nav ul li a:hover, nav ul li a:active {
   text-align: center;
   width: 100%;
 }
-/* line 153, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .content iframe {
   margin-top: 16px;
 }
-/* line 156, ../sass/screen.scss */
+/* line 158, ../sass/screen.scss */
 .content p {
   margin-top: 16px;
   margin-right: 15px;
@@ -225,11 +228,11 @@ nav ul li a:hover, nav ul li a:active {
   margin-bottom: 16px;
   text-align: left;
 }
-/* line 162, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .content p a {
   text-decoration: underline;
 }
-/* line 166, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .content a h1 {
   display: inline-block;
   margin-top: 0px;
@@ -241,20 +244,20 @@ nav ul li a:hover, nav ul li a:active {
   font-size: 2rem;
   font-weight: bold;
 }
-/* line 176, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .content a h1 img {
   max-height: 28px;
   max-width: 28px;
   vertical-align: bottom;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 .shade-on-small {
   background: #f5f5f5;
 }
 
 /** Footer Styling **/
-/* line 189, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .footer {
   display: inline-block;
   position: fixed;
@@ -264,7 +267,7 @@ nav ul li a:hover, nav ul li a:active {
   background-color: #5a4a43;
   color: #ddd;
 }
-/* line 197, ../sass/screen.scss */
+/* line 199, ../sass/screen.scss */
 .footer p {
   display: inline;
   float: left;
@@ -275,25 +278,25 @@ nav ul li a:hover, nav ul li a:active {
   line-height: 1.5rem;
   font-family: 'Poiret One', Arial;
 }
-/* line 206, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .footer p a {
   color: #ddd;
   text-decoration: underline;
 }
-/* line 211, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 .footer .social-links {
   display: inline-block;
   float: right;
   padding-left: 0px;
   margin-top: 10px;
 }
-/* line 216, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .footer .social-links .social-icon {
   display: inline;
   padding-right: 5px;
   margin-right: 15px;
 }
-/* line 220, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .footer .social-links .social-icon a img {
   max-width: 40px;
   max-height: 40px;
@@ -303,18 +306,18 @@ nav ul li a:hover, nav ul li a:active {
 /******************DESKTOP   STYLING  ********************/
 @media only screen and (min-width: 768px) {
   /*toggle hidden / shown section */
-  /* line 235, ../sass/screen.scss */
+  /* line 237, ../sass/screen.scss */
   .mobile-hide {
     display: inline-block;
   }
 
-  /* line 239, ../sass/screen.scss */
+  /* line 241, ../sass/screen.scss */
   .large-hide {
     display: none !important;
   }
 
   /** desktop nav **/
-  /* line 245, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   nav ul {
     display: inline;
     float: right;
@@ -323,12 +326,12 @@ nav ul li a:hover, nav ul li a:active {
     opacity: 1;
     margin: 0 auto;
   }
-  /* line 252, ../sass/screen.scss */
+  /* line 254, ../sass/screen.scss */
   nav ul li {
     display: inline;
     padding-bottom: 0px;
   }
-  /* line 255, ../sass/screen.scss */
+  /* line 257, ../sass/screen.scss */
   nav ul li a {
     display: inline-block;
     padding: 0;
@@ -340,25 +343,25 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /** desktop Banner **/
-  /* line 269, ../sass/screen.scss */
+  /* line 271, ../sass/screen.scss */
   .banner-large {
     width: 100%;
     height: 300px;
   }
-  /* line 272, ../sass/screen.scss */
+  /* line 274, ../sass/screen.scss */
   .banner-large .left-image {
     position: absolute;
     top: 50px;
     left: 0px;
     background-color: #F5f5f5;
   }
-  /* line 277, ../sass/screen.scss */
+  /* line 279, ../sass/screen.scss */
   .banner-large .left-image img {
     height: 300px;
     width: 500px;
     margin: 0;
   }
-  /* line 283, ../sass/screen.scss */
+  /* line 285, ../sass/screen.scss */
   .banner-large .right-quote {
     position: absolute;
     top: 50px;
@@ -372,7 +375,7 @@ nav ul li a:hover, nav ul li a:active {
     padding-right: 20px;
     background: #f5f5f5;
   }
-  /* line 295, ../sass/screen.scss */
+  /* line 297, ../sass/screen.scss */
   .banner-large .right-quote .banner-text {
     max-width: 400px;
     margin-left: auto;
@@ -380,7 +383,7 @@ nav ul li a:hover, nav ul li a:active {
     padding-top: 50px;
     font-size: 2rem;
   }
-  /* line 302, ../sass/screen.scss */
+  /* line 304, ../sass/screen.scss */
   .banner-large .right-quote .citation {
     text-align: right;
     padding-top: 20px;
@@ -388,39 +391,39 @@ nav ul li a:hover, nav ul li a:active {
   }
 
   /*********  main content area styling  ***********/
-  /* line 312, ../sass/screen.scss */
+  /* line 314, ../sass/screen.scss */
   .content {
     padding-top: 35px;
   }
 
-  /* line 315, ../sass/screen.scss */
+  /* line 317, ../sass/screen.scss */
   .container {
     vertical-align: top;
     min-height: 200px;
     text-align: center;
   }
-  /* line 317, ../sass/screen.scss */
+  /* line 319, ../sass/screen.scss */
   .container a {
     display: block;
   }
-  /* line 322, ../sass/screen.scss */
+  /* line 324, ../sass/screen.scss */
   .container p {
     margin-left: auto;
     margin-right: auto;
     max-width: 600px;
   }
 
-  /* line 329, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   .shade-on-small {
     background: #fff;
   }
 
-  /* line 332, ../sass/screen.scss */
+  /* line 334, ../sass/screen.scss */
   .main-area .container:nth-child(even) {
     background: #f5f5f5;
   }
 
-  /* line 336, ../sass/screen.scss */
+  /* line 338, ../sass/screen.scss */
   iframe {
     margin-bottom: 40px;
     max-width: 600px;
