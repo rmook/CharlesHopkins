@@ -3,7 +3,7 @@
 
 $pageID = "Charles Hopkins, Trombone Lessons in Phoenix AZ";
 require_once("inc/config.php");
-include(ROOT_PATH . '/inc/header.php');
+include('inc/header.php');
 
 ?>
 
@@ -19,7 +19,7 @@ include(ROOT_PATH . '/inc/header.php');
 		<!-- ************* LISTEN SECTION ************ -->
 
 		<div class="shade-on-small content container grid-12">
-			<a href="https://soundcloud.com/charlestrombone" target="_blank"><h1>Listen<img src="<?php echo BASE_URL;?>img/ArrowIcon.png"/></h1></a>
+			<a href="https://soundcloud.com/charlestrombone" target="_blank"><h1>Listen<img src="img/ArrowIcon.png"/></h1></a>
 			<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/155490088&amp;color=c08d42&amp;auto_play=false&amp;hide_related=false&amp;show_comments=fals&amp;show_user=true&amp;show_reposts=false"></iframe>
 		</div>
 		
@@ -33,7 +33,7 @@ include(ROOT_PATH . '/inc/header.php');
 
 		<!-- ************* Watch SECTION ************ -->
 		<div class="content mobile-hide container grid-12">
-			<a href="https://vimeo.com/charlestrombone" target="_blank"><h1>Watch<img src="<?php echo BASE_URL;?>img/ArrowIcon.png"/></h1></a>		
+			<a href="https://vimeo.com/charlestrombone" target="_blank"><h1>Watch<img src="img/ArrowIcon.png"/></h1></a>		
 			<iframe src="https://player.vimeo.com/video/142947952?color=c08d42&portrait=0" width="221" height="166" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 		</div>
 
@@ -42,19 +42,25 @@ include(ROOT_PATH . '/inc/header.php');
 
 		<div class="shade-on-small content container grid-12">
 			<a href="<?php echo BASE_URL;?>/News"><h1>News</h1></a>
-			<p>11/11/15</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
+			<p>Come hear Charles perform with salsa band "Jaleo," every Friday night from 10:30PM till 1:00 AM, at Valley Bar in Phoenix. <a>http://www.valleybarphx.com/calendar/</a></p>
+			<p>Charles to perform with the Salt River Brass Quintet this Holiday Season as a part of the "Las Noches de las Luminarias." More information here: <a>www.dbg.org/press-releases/las-noches-de-las-luminarias-0</a></p>
 		</div>
 
 		<!-- ************* Links SECTION ************ -->
 
 		<div class="content mobile-hide container grid-12">
 			<a href="<?php echo BASE_URL;?>/Links"><h1>Links</h1></a>
-			<p>This is a <a>Link</a></p>
-			<p>This is another <a>Link</a></p>
+			<p>
+				<a>www.jayfriedman.net/</a>
+				Website of long-time Principal Trombone of the Chicago Symphony, Jay Friedman.  Includes informative articles written by Mr. Friedman and his contemporaries.
+			<p>
+			<p>
+				<a>http://www.tobyoft.com/</a>
+ 				Website of the Principal Trombone of the Boston Symphony Orchestra, Toby Oft.  Here you will find audio and video recording, articles, and a blog by one of the World's premier orchestral trombonists.
+ 			</p>  
 		</div>
 	</div>
 	
 <?php
-include(ROOT_PATH . 'inc/footer.php');
+include('inc/footer.php');
 ?>

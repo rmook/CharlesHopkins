@@ -6,27 +6,19 @@ include(ROOT_PATH . 'inc/header.php');
 
 ?>
 
-<!-- ************* BANNER IMAGE ************ -->
-
-	<div class="banner large-hide">
-	</div>
-	
-	<div class="banner-large mobile-hide">	
-		<div class="left-image">
-			<img src="<?php echo BASE_URL ?>/img/C73C2723.jpg">
-		</div>
-		<div class="right-logo">
-			<img src="<?php echo BASE_URL ?>/img/Logos/CHLOGOS1NOstarsHORIZ.png">
-			<p class="banner-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-		</div>
-	</div>
 
 <!-- ************* Links SECTION ************ -->
 		
-		<div class="content container grid-12">
-			<a href="<?php echo BASE_URL;?>/About"><h1>Links</h1></a>
-			<p>This is a <a>Link</a></p>
-			<p>This is another <a>Link</a></p>
+		<div class="content mobile-hide container grid-12">
+			<a href="<?php echo BASE_URL;?>/Links"><h1>Links</h1></a>
+			<p>
+				<a>www.jayfriedman.net/</a>
+				Website of long-time Principal Trombone of the Chicago Symphony, Jay Friedman.  Includes informative articles written by Mr. Friedman and his contemporaries.
+			<p>
+			<p>
+				<a>http://www.tobyoft.com/</a>
+ 				Website of the Principal Trombone of the Boston Symphony Orchestra, Toby Oft.  Here you will find audio and video recording, articles, and a blog by one of the World's premier orchestral trombonists.
+ 			</p>  
 		</div>
 
 <?php
