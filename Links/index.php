@@ -9,7 +9,7 @@ include(ROOT_PATH . 'inc/header.php');
 
 <!-- ************* Links SECTION ************ -->
 		
-		<div class="content mobile-hide container grid-12">
+		<div class="content container grid-12">
 			<a href="<?php echo BASE_URL;?>/Links"><h1>Links</h1></a>
 			<p>
 				<a class="feature-link" href="http://www.jayfriedman.net" target="_blank">jayfriedman.net<img src="<?php echo BASE_URL;?>/img/ArrowIcon.png"/></a>
