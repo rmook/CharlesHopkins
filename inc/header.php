@@ -5,8 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="description" content="Dr. Charles Hopkins is a freelance classical and jazz trombone performer and private teacher/educator in Phoenix, AZ." />
 	<title><?php echo $pageID; ?></title>
-	<link href='https://fonts.googleapis.com/css?family=Poiret+One|Merriweather:400,700' rel='stylesheet' type='text/css'>
-    <link href="<?php echo BASE_URL;?>/stylesheets/normalize.css" rel="stylesheet" type="text/css" >
+	<link href='https://fonts.googleapis.com/css?family=Poiret+One|Raleway' rel='stylesheet' type='text/css'>    
+	<link href="<?php echo BASE_URL;?>/stylesheets/normalize.css" rel="stylesheet" type="text/css" >
 	<link href="<?php echo BASE_URL;?>/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
 	<link href="<?php echo BASE_URL;?>/stylesheets/grid.css" media="screen, projection" rel="stylesheet" type="text/css" /> 
 </head>

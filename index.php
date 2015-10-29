@@ -27,8 +27,7 @@ include('inc/header.php');
 
 		<div class="content container grid-12">
 			<a href="<?php echo BASE_URL;?>/Lessons"><h1>Lessons</h1></a>
-			<p>Here is some information about Lessons</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat nibh eu lobortis malesuada.</p>
+			<p>Lessons are available throughout the Valley and from my home in Tempe, Arizona. For further information about scheduling and fees please email me at: <a href="mailto:charles.trombone@gmail.com">charles.trombone@gmail.com</a></span></p>		
 		</div>
 
 		<!-- ************* Watch SECTION ************ -->
@@ -51,11 +50,11 @@ include('inc/header.php');
 		<div class="content mobile-hide container grid-12">
 			<a href="<?php echo BASE_URL;?>/Links"><h1>Links</h1></a>
 			<p>
-				<a>www.jayfriedman.net/</a>
+				<a class="feature-link" href="http://www.jayfriedman.net" target="_blank">jayfriedman.net<img src="img/ArrowIcon.png"/></a>
 				Website of long-time Principal Trombone of the Chicago Symphony, Jay Friedman.  Includes informative articles written by Mr. Friedman and his contemporaries.
 			<p>
 			<p>
-				<a>http://www.tobyoft.com/</a>
+				<a class="feature-link" href="http://www.tobyoft.com" target="_blank">tobyoft.com<img src="img/ArrowIcon.png"/></a>
  				Website of the Principal Trombone of the Boston Symphony Orchestra, Toby Oft.  Here you will find audio and video recording, articles, and a blog by one of the World's premier orchestral trombonists.
  			</p>  
 		</div>

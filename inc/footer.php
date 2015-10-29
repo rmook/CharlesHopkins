@@ -2,7 +2,7 @@
 	<!-- ************* FOOTER ************ -->
 	<div class="filler-bottom"></div>
 	<div class="footer">
-		<p>&copy; 2015 Charles Hopkins<br><br>Designed &amp; Built by <a href="http://rickmook.com">Rick Mook</a></p>
+		<p>&copy; 2015 Charles Hopkins<br>Designed &amp; Built by <a href="http://rickmook.com">Rick Mook</a></p>
 		<ul class="social-links">
 			<li class="social-icon"><a href="#"><img src="<?php echo BASE_URL;?>img/facebook.png"></a></li>
 			<li class="social-icon"><a href="#"><img src="<?php echo BASE_URL;?>img/email.png"></a></li>
