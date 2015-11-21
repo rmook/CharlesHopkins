@@ -156,6 +156,10 @@ nav {
   iframe {
     margin-top: 16px;
   }
+	h2 {
+		margin-top: 20px;
+		font-size: 1.4rem;
+	}
   p {
     margin-top: 16px;
     margin-right: 15px;
@@ -182,6 +186,10 @@ nav {
     	vertical-align: bottom;
     }
   }
+}
+
+.inline {
+	display: inline;
 }
 
 .feature-link {
@@ -309,16 +317,15 @@ nav {
   			margin-left: auto;
   			margin-right: auto;
   		 	padding-top: 50px;
-         	font-size: 2rem;
+         	font-size: 1.8rem;
         }
      	.citation {
          	text-align: right;
          	padding-top: 20px;
-         	font-size: 1.5rem;
+         	font-size: 1.3rem;
          }
     }
   }
-
 
   /*********  main content area styling  ***********/
 	.content {
@@ -327,9 +334,6 @@ nav {
 		}
 	.container {
 		vertical-align: top;
-		a {
-			display: block;
-		}
 		min-height: 200px;
 		text-align: center;
 		p {
@@ -338,7 +342,7 @@ nav {
 			max-width: 600px;
 		}
 	}
-		
+
 	.shade-on-small {
 		background: #fff;
 	}
@@ -347,7 +351,10 @@ nav {
 	}
 	
 	iframe {
+		display: block;
 		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
 		max-width: 600px;
 	}
 }
